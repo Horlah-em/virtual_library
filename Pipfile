@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+black = "*"
+openai = "*"
+pinecone-client = "*"
+tiktoken = "*"
+pypdf = "*"
+python-dotenv = "*"
+streamlit = "*"
+streamlit-chat = "*"
+langchain-community = "*"
+tavily-python = "*"
+langchain-pinecone = "*"
+langchain-openai = "*"
+langchainhub = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.11"
