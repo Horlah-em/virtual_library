@@ -203,4 +203,16 @@ if selected == "Catalogue":
                response = get_response(user_query, st.session_state.chat_history)
                st.markdown(response)
 if selected == "Contact":
-        st.title(f"{selected}")
+        st.text(f"{selected} and About page.")
+        with st.chat_message("Human"):
+              st.markdown("Contact:")
+              st.markdown("Name: Kingsley Moses")
+              st.markdown("Telephone: 07946660845")
+              st.markdown("Email: Kingsmoses44@gmail.com")
+              st.markdown("Address: 110 middlesex street, London, E1 7ht")
+        with st.chat_message("AI"):
+              st.markdown("About: ")
+              st.markdown("Vlibrary-bot is a conversational AI companion for an unparalleled digital reading experience. It’s a cutting-edge platform that harnesses advanced natural language processing to transform how readers explore and engage with literature. ")
+              st.markdown("VLibrary-bot makes knowledge accessible through intuitive conversations. With a chat, the AI assistant can browse through vast catalogs spanning millions of titles across genres and subjects. The intelligent recommendation system understands reader’s preferences, reading habits, and interests, curating personalized suggestions tailored just for them.")
+
+              
